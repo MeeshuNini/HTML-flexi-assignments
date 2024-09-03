@@ -10,11 +10,47 @@ h1 {
 nav {
     background-color: black; 
     text-align: center;
+    ul li {
+        list-style-type: none;
+        color: #d6d6d6; 
+        display:inline-block;
+        padding: 12px 20px;
+    }
 }
-ul li {
-    list-style-type: none;
+ul li{
+    color: #3c3c3c;
+}
+
+.overall_body{
+    background-color: #c7c5c5;
+    padding: 10px;
+
+}
+
+section{
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #ebebed;
+}
+
+h2{
+    color: #0044ca;
+}
+
+p{
+    color: #3c3c3c;
+}
+.overview_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+footer{
+    background-color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
     color: #d6d6d6; 
-    display:inline-block;
     padding: 12px 20px;
-    
 }
