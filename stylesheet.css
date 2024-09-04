@@ -1,6 +1,10 @@
 *{
     margin: 0px;
 }
+h2{
+    padding: 20px;
+    padding-left: 5px;
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -24,14 +28,40 @@ ul li{
     color: #3c3c3c;
 }
 
+.Curriculum{
+    color: #0044ca;
+    ul {
+        display: flex;
+    }
+    ul li{
+        display: inline-block;
+    }
+    ul li {
+        list-style-type: none;
+        color: #d6d6d6; 
+        display:inline-block;
+        padding: 12px 20px;
+        text-align: center;
+    }
+}
+
 nav ul li a{
     color: aliceblue;
     text-decoration: none;
 }
 
+.Admission_Requirements{
+    color: #0044ca;
+}
+nav li:hover,a:hover{
+    background-color: grey;
+   
+}
+
 .overall_body{
     background-color: #dcdbdb;
-    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 
 }
 
@@ -40,14 +70,23 @@ section{
     padding: 10px 20px;
     background-color: #e5e5f1;
     box-shadow: 0 0 20px rgba(10, 4, 4, 0.1) ;
-    border-radius: 5px;
+    border-radius: 15px;
 
 }
+.Program_Overview{
+margin-top: 0px;
+color: #0044ca;
+}
+
+.Contact_Us
 
 h2{
     color: #0044ca;
 }
 
+h3{
+    color: #0044ca;
+}
 p{
     color: #3c3c3c;
 }
@@ -64,4 +103,20 @@ footer{
     font-family: Arial, Helvetica, sans-serif;
     color: #d6d6d6; 
     padding: 12px 20px;
+}
+
+.card-list{
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    padding-left: 0px;
+    
+}
+
+.card {
+    margin: 10px;
+    padding: 10px;
+    background:lightgray;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
 }
