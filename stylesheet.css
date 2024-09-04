@@ -1,3 +1,6 @@
+*{
+    margin: 0px;
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -21,8 +24,13 @@ ul li{
     color: #3c3c3c;
 }
 
+nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
 .overall_body{
-    background-color: #c7c5c5;
+    background-color: #dcdbdb;
     padding: 10px;
 
 }
@@ -30,7 +38,10 @@ ul li{
 section{
     margin: 20px;
     padding: 10px 20px;
-    background-color: #ebebed;
+    background-color: #e5e5f1;
+    box-shadow: 0 0 20px rgba(10, 4, 4, 0.1) ;
+    border-radius: 5px;
+
 }
 
 h2{
