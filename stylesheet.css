@@ -103,7 +103,7 @@ section{
 }
 .Program_Overview{
 margin-top: 0px;
-color: #0044ca;
+color: #010610;
 }
 
 .Contact_Us
@@ -157,3 +157,49 @@ button{
     text-decoration: none;
     border-radius: 5px;
 }
+
+
+  .program-overview {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.program-overview h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+.bee-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 2fr);
+    gap: 10px;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+
+
+.bee-item {
+    position: relative;
+    width: 175px;
+    height: 150px;
+    background-color: #f0f0f0;
+    color: rgb(40, 12, 222);
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    font-size: 15px;
+    clip-path: polygon(25% 0%,75% 0%,100% 50%,75% 100%,25% 100%,0% 50%);
+  }
+  .bee-item:nth-child(odd) {
+    margin-top: 50px; /* Adjust to stagger odd-numbered pentagons */
+  }
+  
+  .bee-item:hover {
+      background-color:yellow;
+  }
