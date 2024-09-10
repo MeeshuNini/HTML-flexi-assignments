@@ -8,11 +8,39 @@ h2{
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
-header{
-    text-align: center;
-}
+header section{
+    position: relative;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/0/02/Computer_science_education.png');
+    background-size: cover;
+    background-position: center;
+    height: 250px; /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: #3c3c3c;
+    p{
+        color: #d6d6d6;
+        padding: 20px;
+    }
+    }
+
+
+.overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(8, 0, 0, 0.785); /* Dark overlay */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1) ;
+    border-radius: 10px;
+    }
 h1 {
-    color: #0044ca;
+    color: #e2e5ec;
 }
 nav {
     background-color: black; 
@@ -53,8 +81,8 @@ nav ul li a{
 .Admission_Requirements{
     color: #0044ca;
 }
-nav li:hover,a:hover{
-    background-color: grey;
+nav li:hover,nav a:hover{
+    background-color: #0044ca;
    
 }
 
@@ -75,10 +103,12 @@ section{
 }
 .Program_Overview{
 margin-top: 0px;
-color: #0044ca;
+color: #010610;
 }
 
-.Contact_Us
+.Contact_Us{
+    padding-bottom: 60px;
+}
 
 h2{
     color: #0044ca;
@@ -97,14 +127,6 @@ p{
 }
 
 
-footer{
-    background-color: black;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #d6d6d6; 
-    padding: 12px 20px;
-}
-
 .card-list{
     list-style-type: none;
     display: flex;
@@ -120,3 +142,124 @@ footer{
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
 }
+
+button{
+    color: white;
+    background-color: #0044ca;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+  .program-overview {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.program-overview h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+.bee-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 2fr);
+    gap: 10px;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+
+
+.bee-item {
+    position: relative;
+    width: 175px;
+    height: 150px;
+    background-color: rgb(207, 202, 202);
+    color: rgb(40, 12, 222);
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    font-size: 15px;
+    clip-path: polygon(25% 0%,75% 0%,100% 50%,75% 100%,25% 100%,0% 50%);
+  }
+  .bee-item:nth-child(odd) {
+    margin-top: 50px; /* Adjust to stagger odd-numbered pentagons */
+  }
+  
+  .bee-item:hover {
+      background-color:yellow;
+  }
+
+  .video-container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+
+
+  .social-icons {
+    display: flex;
+    gap: 20px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .social-icons .icon {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: background-color 0.3s;;
+  }
+  
+  .icon.facebook {
+    background-color: #3b5998;
+  }
+  .icon.twitter {
+    background-color: #1da1f2;
+  }
+  
+  .icon.instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  }
+  
+  .icon.linkedin {
+    background-color: #0077b5;
+  }
+  
+  .icon:hover {
+    transform: scale(1.1);
+  }
+  #about iframe{
+    margin-left: 30%;
+  }
+  footer {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    padding-bottom: 20px;
+} 
+footer p {
+    color: whitesmoke;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+    
