@@ -250,3 +250,23 @@ footer p {
 #about iframe {
     margin-left: 30%;
 }
+
+.card-list { 
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    padding-left: 0px;
+    
+}
+
+.card {
+    margin: 10px;
+    padding: 10px;
+    background:lightgray;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.Program_Overview h2{
+    color: black;
+}
